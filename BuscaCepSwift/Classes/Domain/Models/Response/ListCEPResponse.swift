@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import ObjectMapper
+
+class ListCEPResponse: Mappable {
+    
+    var neighborhood : String?
+    var city : String?
+    var street : String?
+    var state_info : CepInfoBean?
+    
+    convenience required init?(map: Map) {
+        self.init()
+    }
+    
+    func mapping(map: Map) {
+        neighborhood <- map["bairro"]
+        city <- map["cidade"]
+        street <- map["logradouro"]
+        state_info <- map["estado_info"]
+    }
+}
