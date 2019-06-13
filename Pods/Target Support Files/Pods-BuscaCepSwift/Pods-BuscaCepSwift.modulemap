@@ -1,0 +1,6 @@
+framework module Pods_BuscaCepSwift {
+  umbrella header "Pods-BuscaCepSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

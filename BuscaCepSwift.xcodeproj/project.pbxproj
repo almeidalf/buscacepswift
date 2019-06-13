@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A29227121E65FEB887A728 /* Pods_BuscaCepSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4F7F3766E2134F510867F0 /* Pods_BuscaCepSwift.framework */; };
+		2008384A22ADA0DD00D47CF3 /* ErroCepResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008384922ADA0DD00D47CF3 /* ErroCepResponse.swift */; };
+		2008384C22ADA17400D47CF3 /* SendCepRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008384B22ADA17400D47CF3 /* SendCepRequest.swift */; };
+		2008384E22ADA24F00D47CF3 /* CepInfoBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008384D22ADA24F00D47CF3 /* CepInfoBean.swift */; };
+		2008385122ADA2F300D47CF3 /* ServiceParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008385022ADA2F300D47CF3 /* ServiceParameter.swift */; };
+		2008385522ADA37600D47CF3 /* WS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008385422ADA37600D47CF3 /* WS.swift */; };
+		2008385722ADA3FA00D47CF3 /* ListCEPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008385622ADA3FA00D47CF3 /* ListCEPResponse.swift */; };
+		2008386F22ADE14300D47CF3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008386E22ADE14300D47CF3 /* InfoViewController.swift */; };
+		2008387122ADE1D300D47CF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008387022ADE1D300D47CF3 /* MainViewController.swift */; };
+		2008387422ADE91000D47CF3 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008387322ADE91000D47CF3 /* Singleton.swift */; };
+		2008387622ADE98F00D47CF3 /* MessageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008387522ADE98F00D47CF3 /* MessageUtil.swift */; };
 		20D4C14F22AD96E2005B589C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4C14E22AD96E2005B589C /* AppDelegate.swift */; };
 		20D4C15122AD96E2005B589C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4C15022AD96E2005B589C /* ViewController.swift */; };
 		20D4C15422AD96E2005B589C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D4C15222AD96E2005B589C /* Main.storyboard */; };
@@ -15,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2008384922ADA0DD00D47CF3 /* ErroCepResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErroCepResponse.swift; sourceTree = "<group>"; };
+		2008384B22ADA17400D47CF3 /* SendCepRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendCepRequest.swift; sourceTree = "<group>"; };
+		2008384D22ADA24F00D47CF3 /* CepInfoBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CepInfoBean.swift; sourceTree = "<group>"; };
+		2008385022ADA2F300D47CF3 /* ServiceParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceParameter.swift; sourceTree = "<group>"; };
+		2008385422ADA37600D47CF3 /* WS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WS.swift; sourceTree = "<group>"; };
+		2008385622ADA3FA00D47CF3 /* ListCEPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCEPResponse.swift; sourceTree = "<group>"; };
+		2008386E22ADE14300D47CF3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = BuscaCepSwift/Classes/Domain/Models/Response/InfoViewController.swift; sourceTree = SOURCE_ROOT; };
+		2008387022ADE1D300D47CF3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = BuscaCepSwift/Classes/Domain/Models/Response/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		2008387322ADE91000D47CF3 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		2008387522ADE98F00D47CF3 /* MessageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageUtil.swift; sourceTree = "<group>"; };
 		20D4C14B22AD96E2005B589C /* BuscaCepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscaCepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D4C14E22AD96E2005B589C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20D4C15022AD96E2005B589C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,9 @@
 		20D4C15522AD96E3005B589C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20D4C15822AD96E3005B589C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20D4C15A22AD96E3005B589C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4F7F3766E2134F510867F0 /* Pods_BuscaCepSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuscaCepSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1901FB84962CCE5118D9ED /* Pods-BuscaCepSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuscaCepSwift.release.xcconfig"; path = "Target Support Files/Pods-BuscaCepSwift/Pods-BuscaCepSwift.release.xcconfig"; sourceTree = "<group>"; };
+		D136E745D711BDD0C3C943F1 /* Pods-BuscaCepSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuscaCepSwift.debug.xcconfig"; path = "Target Support Files/Pods-BuscaCepSwift/Pods-BuscaCepSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,123 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A29227121E65FEB887A728 /* Pods_BuscaCepSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2008384122AD9F7C00D47CF3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2008384222AD9FB900D47CF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2008384322AD9FCC00D47CF3 /* Domain */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2008384322AD9FCC00D47CF3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2008387222ADE90000D47CF3 /* Util */,
+				2008386A22ADB3CC00D47CF3 /* ViewControllers */,
+				2008384422ADA00400D47CF3 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2008384422ADA00400D47CF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2008384822ADA07F00D47CF3 /* Beans */,
+				2008384722ADA07100D47CF3 /* Request */,
+				2008384622ADA06A00D47CF3 /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2008384622ADA06A00D47CF3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				2008384922ADA0DD00D47CF3 /* ErroCepResponse.swift */,
+				2008385622ADA3FA00D47CF3 /* ListCEPResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		2008384722ADA07100D47CF3 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2008384B22ADA17400D47CF3 /* SendCepRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2008384822ADA07F00D47CF3 /* Beans */ = {
+			isa = PBXGroup;
+			children = (
+				2008384D22ADA24F00D47CF3 /* CepInfoBean.swift */,
+			);
+			path = Beans;
+			sourceTree = "<group>";
+		};
+		2008384F22ADA2B800D47CF3 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				2008385022ADA2F300D47CF3 /* ServiceParameter.swift */,
+				2008385422ADA37600D47CF3 /* WS.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		2008386A22ADB3CC00D47CF3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2008386D22ADB3E900D47CF3 /* InfoVC */,
+				2008386B22ADB3D400D47CF3 /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2008386B22ADB3D400D47CF3 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				2008387022ADE1D300D47CF3 /* MainViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		2008386D22ADB3E900D47CF3 /* InfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				2008386E22ADE14300D47CF3 /* InfoViewController.swift */,
+			);
+			path = InfoVC;
+			sourceTree = "<group>";
+		};
+		2008387222ADE90000D47CF3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2008387322ADE91000D47CF3 /* Singleton.swift */,
+				2008387522ADE98F00D47CF3 /* MessageUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		20D4C14222AD96E2005B589C = {
 			isa = PBXGroup;
 			children = (
 				20D4C14D22AD96E2005B589C /* BuscaCepSwift */,
 				20D4C14C22AD96E2005B589C /* Products */,
+				BBC9EF09FECDB27DECC7F650 /* Pods */,
+				B21A81526AC06BABD777C1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +184,9 @@
 		20D4C14D22AD96E2005B589C /* BuscaCepSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2008384222AD9FB900D47CF3 /* Classes */,
+				2008384F22ADA2B800D47CF3 /* WebService */,
+				2008384122AD9F7C00D47CF3 /* Main */,
 				20D4C14E22AD96E2005B589C /* AppDelegate.swift */,
 				20D4C15022AD96E2005B589C /* ViewController.swift */,
 				20D4C15222AD96E2005B589C /* Main.storyboard */,
@@ -64,6 +197,23 @@
 			path = BuscaCepSwift;
 			sourceTree = "<group>";
 		};
+		B21A81526AC06BABD777C1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4F7F3766E2134F510867F0 /* Pods_BuscaCepSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBC9EF09FECDB27DECC7F650 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D136E745D711BDD0C3C943F1 /* Pods-BuscaCepSwift.debug.xcconfig */,
+				AA1901FB84962CCE5118D9ED /* Pods-BuscaCepSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D4C15D22AD96E3005B589C /* Build configuration list for PBXNativeTarget "BuscaCepSwift" */;
 			buildPhases = (
+				D5FCFA6982DB87CEEDC07ACA /* [CP] Check Pods Manifest.lock */,
 				20D4C14722AD96E2005B589C /* Sources */,
 				20D4C14822AD96E2005B589C /* Frameworks */,
 				20D4C14922AD96E2005B589C /* Resources */,
+				ABC047FABF384104442E0775 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +282,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABC047FABF384104442E0775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuscaCepSwift/Pods-BuscaCepSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuscaCepSwift/Pods-BuscaCepSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuscaCepSwift/Pods-BuscaCepSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FCFA6982DB87CEEDC07ACA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuscaCepSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20D4C14722AD96E2005B589C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20D4C15122AD96E2005B589C /* ViewController.swift in Sources */,
+				2008385122ADA2F300D47CF3 /* ServiceParameter.swift in Sources */,
 				20D4C14F22AD96E2005B589C /* AppDelegate.swift in Sources */,
+				2008385722ADA3FA00D47CF3 /* ListCEPResponse.swift in Sources */,
+				2008386F22ADE14300D47CF3 /* InfoViewController.swift in Sources */,
+				2008384E22ADA24F00D47CF3 /* CepInfoBean.swift in Sources */,
+				2008387422ADE91000D47CF3 /* Singleton.swift in Sources */,
+				2008384C22ADA17400D47CF3 /* SendCepRequest.swift in Sources */,
+				2008384A22ADA0DD00D47CF3 /* ErroCepResponse.swift in Sources */,
+				2008385522ADA37600D47CF3 /* WS.swift in Sources */,
+				2008387122ADE1D300D47CF3 /* MainViewController.swift in Sources */,
+				2008387622ADE98F00D47CF3 /* MessageUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +484,13 @@
 		};
 		20D4C15E22AD96E3005B589C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D136E745D711BDD0C3C943F1 /* Pods-BuscaCepSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB27KXR495;
 				INFOPLIST_FILE = BuscaCepSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +504,13 @@
 		};
 		20D4C15F22AD96E3005B589C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1901FB84962CCE5118D9ED /* Pods-BuscaCepSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DB27KXR495;
 				INFOPLIST_FILE = BuscaCepSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
