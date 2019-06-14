@@ -10,9 +10,6 @@ import Foundation
 import UIKit
 
 class MessageUtil {
-    static var messageFrame = UIView()
-    static var mainView = UIView()
-    static var gameTimer: Timer!
     
     static func errorAlert(title: String, msg: String, view: UIViewController){
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
